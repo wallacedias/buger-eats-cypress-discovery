@@ -63,6 +63,7 @@ describe('Signup', () => {
         messages.forEach(function(msg){
             it(`${msg.filed} is required`, function() {
                 signupPage.alertMessageShoudBe(msg.output)
+                // test
             }) 
         })
     })
