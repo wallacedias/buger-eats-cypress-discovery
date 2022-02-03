@@ -26,7 +26,7 @@ describe('Signup', () => {
         signupPage.go()
         signupPage.fillForm(deliver)
         signupPage.submit()
-        signupPage.alertMessageShoudBe('Oops! CPF inválidu')
+        signupPage.alertMessageShoudBe('Oops! CPF inválido')
 
     })
 
